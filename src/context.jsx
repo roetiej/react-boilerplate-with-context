@@ -35,7 +35,7 @@ export const useApp = () => {
     return [useAppState(), useAppDispatch()];
 };
 
-export const AppReducer = (action, state) => {
+export const AppReducer = (state, action) => {
     return state;
 }
 
