@@ -1,10 +1,12 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+
+import { useApp } from "./context";
 
 const App = () => {
-  return (
-    <div>App</div>
-  );
+  const [state] = useApp();
+  
+  return <div>App</div>;
 };
 
 export default App;
